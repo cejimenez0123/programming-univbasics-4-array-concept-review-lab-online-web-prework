@@ -1,7 +1,5 @@
 def find_element_index(array, value_to_find)
-  while value_to_find do |index|
-    array[index].include?(value_to_find)
-  end
+  array.index(value_to_find)
   return index# Add your solution here
 end
 
